@@ -1,0 +1,766 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.29)  23 MAY 2019 16:44
+entering extended mode
+**./cv.tex
+(cv.tex
+LaTeX2e <2017/01/01> patch level 1
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+) (cv.aux)
+\openout1 = `cv.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 35.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 35.
+
+Overfull \hbox (3.07664pt too wide) in alignment at lines 36--42
+[] []
+ []
+
+
+Overfull \hbox (16.8065pt too wide) in alignment at lines 63--71
+[] [] []
+ []
+
+
+Overfull \hbox (35.55602pt too wide) in alignment at lines 80--106
+[] []
+ []
+
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 151.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 151.
+
+Overfull \hbox (1.66144pt too wide) in paragraph at lines 159--163
+\OT1/cmr/m/n/10 Andreas Kon-stan-tini-dis, Pana-gi-o-tis Irak-leous, Zacharias 
+Geor-giou, \OT1/cmr/bx/n/10 Demetrios Zeinalipour-
+ []
+
+
+Overfull \hbox (2.20982pt too wide) in paragraph at lines 172--176
+\OT1/cmr/m/n/10 Georgios Chatz-im-il-ioudis, Con-stanti-nos Costa, \OT1/cmr/bx/
+n/10 Demetrios Zeinalipour-Yazti\OT1/cmr/m/n/10 , Wang-Chien
+ []
+
+
+Overfull \hbox (8.32858pt too wide) in paragraph at lines 187--190
+\OT1/cmr/m/n/10 Georgios Larkou, Mar-ios Mintzis, An-dreas Kon-stan-tini-dis, P
+anayi-o-tis An-dreou and \OT1/cmr/bx/n/10 Demetrios
+ []
+
+
+Overfull \hbox (5.54317pt too wide) in paragraph at lines 193--197
+\OT1/cmr/m/n/10 Andreas Kon-stan-tini-dis, Geor-gios Chatz-im-il-ioudis, \OT1/c
+mr/bx/n/10 Demetrios Zeinalipour-Yazti\OT1/cmr/m/n/10 , Paschalis
+ []
+
+
+Overfull \hbox (31.5226pt too wide) in paragraph at lines 221--224
+\OT1/cmr/m/n/10 Georgios Chatz-im-iloudis, An-dreas Kon-stan-tinides, Chris-tos
+ Laoudias and \OT1/cmr/bx/n/10 Demetrios Zeinalipour-
+ []
+
+[4]
+Overfull \hbox (0.69594pt too wide) in paragraph at lines 240--243
+\OT1/cmr/m/n/10 Panayiotis An-dreou, \OT1/cmr/bx/n/10 Demetrios Zeinalipour-Yaz
+ti\OT1/cmr/m/n/10 , An-dreas Pam-boris, Panos K. Chrysan-
+ []
+
+
+Overfull \hbox (4.04456pt too wide) in paragraph at lines 272--276
+[]\OT1/cmr/bx/n/10 ``Distributed Mid-dle-ware Ar-chi-tec-tures for Scal-able Me
+-dia Ser-vices''\OT1/cmr/m/n/10 , Vana Kaloger-
+ []
+
+[5]
+Overfull \hbox (8.61969pt too wide) in paragraph at lines 298--301
+\OT1/cmr/m/n/10 Marios D. Dika-iakos, \OT1/cmr/bx/n/10 Demetrios Zeinalipour-Ya
+zti\OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 Com-puter Com-mu-ni-ca-tions (Com-
+ []
+
+
+Overfull \hbox (16.81427pt too wide) in paragraph at lines 335--338
+\OT1/cmr/m/n/10 Constantinos Costa, An-dreas Char-alampous, An-dreas Kon-stan-t
+ini-dis, \OT1/cmr/bx/n/10 Demetrios Zeinalipour-
+ []
+
+
+Overfull \hbox (16.81427pt too wide) in paragraph at lines 359--362
+\OT1/cmr/m/n/10 Constantinos Costa, An-dreas Char-alampous, An-dreas Kon-stan-t
+ini-dis, \OT1/cmr/bx/n/10 Demetrios Zeinalipour-
+ []
+
+[6]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+
+Overfull \hbox (15.55086pt too wide) in paragraph at lines 390--393
+\OT1/cmr/m/n/10 Artyom Nikitin, Chris-tos Laoudias, Geor-gios Chatz-im-il-ioudi
+s, Pana-gi-o-tis Kar-ras and \OT1/cmr/bx/n/10 Demetrios
+ []
+
+
+Overfull \hbox (15.55086pt too wide) in paragraph at lines 396--399
+\OT1/cmr/m/n/10 Artyom Nikitin, Chris-tos Laoudias, Geor-gios Chatz-im-il-ioudi
+s, Pana-gi-o-tis Kar-ras and \OT1/cmr/bx/n/10 Demetrios
+ []
+
+
+Overfull \hbox (5.54317pt too wide) in paragraph at lines 422--427
+\OT1/cmr/m/n/10 Andreas Kon-stan-tini-dis, Geor-gios Chatz-im-il-ioudis, \OT1/c
+mr/bx/n/10 Demetrios Zeinalipour-Yazti\OT1/cmr/m/n/10 , Paschalis
+ []
+
+[7]
+Overfull \hbox (21.17581pt too wide) in paragraph at lines 451--455
+\OT1/cmr/m/n/10 Georgios Larkou, Mar-ios Mintzis, Panayi-o-tis G. An-dreou, An-
+dreas Kon-stan-tini-dis and \OT1/cmr/bx/n/10 Demetrios
+ []
+
+
+Overfull \hbox (9.80034pt too wide) in paragraph at lines 493--497
+\OT1/cmr/m/n/10 George Larkou, Panayi-o-tis K. An-dreou, An-dreas Kon-stan-tini
+des and \OT1/cmr/bx/n/10 Demetrios Zeinalipour-
+ []
+
+[8]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no © in font cmr10!
+
+Overfull \hbox (0.22995pt too wide) in paragraph at lines 521--524
+\OT1/cmr/m/n/10 Georgios Chatz-im-il-ioudis and \OT1/cmr/bx/n/10 Demetrios Zein
+alipour-Yazti \OT1/cmr/m/it/10 14th IEEE In-ter-na-tional Con-
+ []
+
+
+Overfull \hbox (5.15425pt too wide) in paragraph at lines 540--544
+\OT1/cmr/m/n/10 Panayiotis G. An-dreou, George Con-stanti-nou, \OT1/cmr/bx/n/10
+ Demetrios Zeinalipour-Yazti\OT1/cmr/m/n/10 , George Sama-
+ []
+
+
+Overfull \hbox (18.13417pt too wide) in paragraph at lines 553--556
+\OT1/cmr/m/n/10 Christos Laoudias, George Con-stanti-nou, Mar-ios Con-stan-tini
+des, Silouanos Nico-laou, \OT1/cmr/bx/n/10 Demetrios
+ []
+
+[9]
+Overfull \hbox (18.13417pt too wide) in paragraph at lines 573--578
+\OT1/cmr/m/n/10 Christos Laoudias, George Con-stanti-nou, Mar-ios Con-stan-tini
+des, Silouanos Nico-laou, \OT1/cmr/bx/n/10 Demetrios
+ []
+
+Missing character: There is no √ in font cmr10!
+Missing character: There is no £ in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no £ in font cmr10!
+
+Overfull \hbox (2.62651pt too wide) in paragraph at lines 617--620
+\OT1/cmr/m/n/10 Andreas Kon-stan-tini-dis, \OT1/cmr/bx/n/10 Demetrios Zeinalipo
+ur-Yazti\OT1/cmr/m/n/10 , Panayi-o-tis An-dreou, George Sama-
+ []
+
+[10]
+Overfull \hbox (3.5996pt too wide) in paragraph at lines 658--662
+[]\OT1/cmr/bx/n/10 ``Perimeter-Based Data Repli-ca-tion and Ag-gre-ga-tion in M
+o-bile Sen-sor Net-works''\OT1/cmr/m/n/10 , 
+ []
+
+
+Overfull \hbox (0.69594pt too wide) in paragraph at lines 671--676
+\OT1/cmr/m/n/10 Panayiotis An-dreou, An-dreas Pam-boris, \OT1/cmr/bx/n/10 Demet
+rios Zeinalipour-Yazti\OT1/cmr/m/n/10 , Panos K. Chrysan-
+ []
+
+[11] [12]
+Overfull \hbox (31.76302pt too wide) in paragraph at lines 827--830
+\OT1/cmr/bx/n/10 Demetrios Zeinalipour-Yazti \OT1/cmr/m/n/10 and Mar-ios D. Dik
+a-iakos. \OT1/cmr/m/it/10 In-ter-na-tional Work-shop on Performance-
+ []
+
+
+Overfull \hbox (22.34207pt too wide) in paragraph at lines 844--847
+\OT1/cmr/m/n/10 Kazushige Ouchi, Takuya Yoshi-hiro, Yuka Kato, To-moyuki Yashir
+o and \OT1/cmr/bx/n/10 Demetrios Zeinalipour-
+ []
+
+[13]
+Overfull \hbox (17.37624pt too wide) in paragraph at lines 875--878
+\OT1/cmr/m/n/10 Editors: Ri-zos Sakel-lar-iou, Sal-va-tore Or-lando, Josep-Llui
+s Larriba-Pey, Srini-vasan Parthasarathy, 
+ []
+
+
+Overfull \hbox (4.01518pt too wide) in paragraph at lines 909--912
+\OT1/cmr/m/n/10 Andreas Kon-stan-tini-dis, Geor-gios Chatz-im-il-ioudis and \OT
+1/cmr/bx/n/10 Demetrios Zeinalipour-Yazti \OT1/cmr/m/it/10 News,
+ []
+
+[14] [15]
+Overfull \hbox (16.81427pt too wide) in paragraph at lines 1009--1013
+\OT1/cmr/m/n/10 Constantinos Costa, An-dreas Char-alampous, An-dreas Kon-stan-t
+ini-dis, \OT1/cmr/bx/n/10 Demetrios Zeinalipour-
+ []
+
+
+Overfull \hbox (16.81427pt too wide) in paragraph at lines 1023--1027
+\OT1/cmr/m/n/10 Constantinos Costa, An-dreas Char-alampous, An-dreas Kon-stan-t
+ini-dis, \OT1/cmr/bx/n/10 Demetrios Zeinalipour-
+ []
+
+
+Overfull \hbox (15.55086pt too wide) in paragraph at lines 1037--1041
+\OT1/cmr/m/n/10 Artyom Nikitin, Chris-tos Laoudias, Geor-gios Chatz-im-il-ioudi
+s, Pana-gi-o-tis Kar-ras and \OT1/cmr/bx/n/10 Demetrios
+ []
+
+
+Overfull \hbox (15.55086pt too wide) in paragraph at lines 1044--1048
+\OT1/cmr/m/n/10 Artyom Nikitin, Chris-tos Laoudias, Geor-gios Chatz-im-il-ioudi
+s, Pana-gi-o-tis Kar-ras and \OT1/cmr/bx/n/10 Demetrios
+ []
+
+
+Overfull \hbox (5.54317pt too wide) in paragraph at lines 1073--1077
+\OT1/cmr/m/n/10 Andreas Kon-stan-tini-dis, Geor-gios Chatz-im-il-ioudis, \OT1/c
+mr/bx/n/10 Demetrios Zeinalipour-Yazti\OT1/cmr/m/n/10 , Paschalis
+ []
+
+[16]
+Overfull \hbox (0.75038pt too wide) in paragraph at lines 1094--1098
+\OT1/cmr/m/n/10 Dika-iakos, \OT1/cmr/m/it/10 The 11th Hel-lenic Data Man-age-me
+nt Sym-po-sium \OT1/cmr/bx/n/10 (HDMS 2012)\OT1/cmr/m/n/10 , Cha-nia, Greece,
+ []
+
+
+Overfull \hbox (0.75038pt too wide) in paragraph at lines 1108--1112
+\OT1/cmr/m/n/10 Dika-iakos, \OT1/cmr/m/it/10 The 11th Hel-lenic Data Man-age-me
+nt Sym-po-sium \OT1/cmr/bx/n/10 (HDMS 2012)\OT1/cmr/m/n/10 , Cha-nia, Greece,
+ []
+
+
+Overfull \hbox (2.62651pt too wide) in paragraph at lines 1115--1119
+\OT1/cmr/m/n/10 Andreas Kon-stan-tini-dis, \OT1/cmr/bx/n/10 Demetrios Zeinalipo
+ur-Yazti\OT1/cmr/m/n/10 , Panayi-o-tis An-dreou, George Sama-
+ []
+
+[17]
+Overfull \hbox (3.5996pt too wide) in paragraph at lines 1157--1161
+[]\OT1/cmr/bx/n/10 ``Perimeter-Based Data Repli-ca-tion and Ag-gre-ga-tion in M
+o-bile Sen-sor Net-works''\OT1/cmr/m/n/10 , 
+ []
+
+
+Overfull \hbox (1.30708pt too wide) in paragraph at lines 1164--1168
+\OT1/cmr/m/n/10 Panayiotis An-dreou, \OT1/cmr/bx/n/10 Demetrios Zeinalipour-Yaz
+ti\OT1/cmr/m/n/10 , Martha Vasil-i-adou, Panos K. Chrysan-
+ []
+
+
+Overfull \hbox (1.66708pt too wide) in paragraph at lines 1171--1175
+\OT1/cmr/m/n/10 Sama-ras, \OT1/cmr/m/it/10 The 7th Hel-lenic Data Man-age-ment 
+Sym-po-sium \OT1/cmr/bx/n/10 (HDMS 2008)\OT1/cmr/m/n/10 , Her-ak-lion, Greece,
+ []
+
+
+Overfull \hbox (12.18207pt too wide) in paragraph at lines 1192--1196
+\OT1/cmr/m/n/10 Christiana Christophi, \OT1/cmr/bx/n/10 Demetrios Zeinalipour-Y
+azti\OT1/cmr/m/n/10 , Mar-ios D. Dika-iakos, George Paliouras,
+ []
+
+[18]
+Overfull \hbox (15.53392pt too wide) in paragraph at lines 1260--1264
+\OT1/cmr/m/n/10 Marios Pa-pas, \OT1/cmr/bx/n/10 Demetrios Zeinalipour-Yazti\OT1
+/cmr/m/n/10 , Mar-ios D. Dika-iakos, George Panayi. Theodoros
+ []
+
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no º in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no º in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Overfull \hbox (9.5984pt too wide) in paragraph at lines 1282--1285
+\OT1/cmr/m/n/10 at-ing Se-man-tic As-pects for Queries, Max-Planck-Institut fr 
+In-for-matik, Saar-br-cken, MPII20175-
+ []
+
+[19]
+Overfull \hbox (28.88557pt too wide) in paragraph at lines 1333--1336
+[]\OT1/cmr/bx/n/10 ``Structuring Topologically-Aware Over-lay Net-works us-ing 
+Do-main Names''\OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 Demetrios
+ []
+
+
+Overfull \hbox (0.2635pt too wide) in paragraph at lines 1351--1354
+[]\OT1/cmr/bx/n/10 ``High-Performance Crawl-ing and Fil-ter-ing in Java''\OT1/c
+mr/m/n/10 , \OT1/cmr/bx/n/10 Demetrios Zeinalipour-Yazti
+ []
+
+[20] [21]
+Overfull \hbox (0.67982pt too wide) in paragraph at lines 1428--1429
+[]\OT1/cmr/bx/n/10 Invited Talk\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 ``In-door Dat
+a Man-age-ment in Any-place''\OT1/cmr/m/n/10 , Uni-ver-sity of Mannheim, Mannhe
+im,
+ []
+
+
+Overfull \hbox (0.18468pt too wide) in paragraph at lines 1434--1435
+[]\OT1/cmr/bx/n/10 Invited Talk\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 ``Prefetch-in
+g In-door Nav-i-ga-tion Struc-tures in Any-place''\OT1/cmr/m/n/10 , Uni-ver-sit
+y of Nicosia,
+ []
+
+
+Overfull \hbox (3.79266pt too wide) in paragraph at lines 1440--1441
+\OT1/cmr/m/n/10 Research-led Teach-ing Work-shop, Cen-tre for Teach-ing & Learn
+-ing, Uni-ver-sity Cyprus, Nicosia,
+ []
+
+
+Overfull \hbox (6.48486pt too wide) in paragraph at lines 1448--1449
+[]\OT1/cmr/bx/n/10 Invited Talk\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 ``Mo-bile Cro
+wd-sourc-ing: Chal-lenges and Ap-pli-ca-tions''\OT1/cmr/m/n/10 , 7th Web-datane
+t (COST
+ []
+
+[22]
+Overfull \hbox (6.48486pt too wide) in paragraph at lines 1450--1451
+[]\OT1/cmr/bx/n/10 Invited Talk\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 ``Mo-bile Cro
+wd-sourc-ing: Chal-lenges and Ap-pli-ca-tions''\OT1/cmr/m/n/10 , 7th Web-datane
+t (COST
+ []
+
+
+Overfull \hbox (5.17897pt too wide) in paragraph at lines 1461--1462
+[]\OT1/cmr/bx/n/10 Invited Talk\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 ``En-ergy Ef-
+fi-cient Data Man-age-ment in Smart-phone Net-works''\OT1/cmr/m/n/10 , NSF-spon
+sored
+ []
+
+
+Overfull \hbox (0.84053pt too wide) in paragraph at lines 1469--1470
+[]\OT1/cmr/bx/n/10 Invited Talk\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 ``Se-man-tic 
+Chal-lenges in (Mo-bile) Sen-sor Net-works''\OT1/cmr/m/n/10 , Dagstuhl Sem-i-na
+r 10042:
+ []
+
+[23] [24]
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no ï in font cmr10!
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no ï in font cmr10!
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no † in font cmr10!
+ [25]
+Overfull \hbox (5.06656pt too wide) in paragraph at lines 1527--1528
+[]\OT1/cmr/bx/n/10 Lecture\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 ``Peer-to-Peer Sys
+-tems''\OT1/cmr/m/n/10 , course: ``EPL601 - Dis-tributed Sys-tems'', Grad-u-ate
+ Course,
+ []
+
+
+Overfull \hbox (5.06656pt too wide) in paragraph at lines 1531--1532
+[]\OT1/cmr/bx/n/10 Lecture\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 ``Peer-to-Peer Sys
+-tems''\OT1/cmr/m/n/10 , course: ``EPL601 - Dis-tributed Sys-tems'', Grad-u-ate
+ Course,
+ []
+
+[26]
+Overfull \hbox (5.06656pt too wide) in paragraph at lines 1541--1542
+[]\OT1/cmr/bx/n/10 Lecture\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 ``Peer-to-Peer Sys
+-tems''\OT1/cmr/m/n/10 , course: ``EPL601 - Dis-tributed Sys-tems'', Grad-u-ate
+ Course,
+ []
+
+
+Overfull \hbox (27.83466pt too wide) in paragraph at lines 1547--1548
+[]\OT1/cmr/bx/n/10 Presentation\OT1/cmr/m/n/10 , \OT1/cmr/m/it/10 ``On Con-stru
+ct-ing Internet-Scale P2P In-for-ma-tion Re-trieval Sys-tems''\OT1/cmr/m/n/10 ,
+ DBISP2P'04
+ []
+
+
+Overfull \hbox (1.21613pt too wide) in paragraph at lines 1552--1553
+[]\OT1/cmr/bx/n/10 TV Pre-sen-ta-tions \OT1/cmr/m/n/10 on In-ter-net Tech-nol-o
+gy at CyBC (Cyprus Na-tional TV), Nicosia, Cyprus,
+ []
+
+
+Overfull \hbox (1.54291pt too wide) in paragraph at lines 1563--1565
+\OT1/cmr/m/n/10 Online: http://www.euronews.com/2013/01/07/privacy-versus-new-i
+nformation-technology,.
+ []
+
+[27]
+Overfull \hbox (38.29178pt too wide) in paragraph at lines 1581--1582
+\OT1/cmr/m/n/10 Smart Growth, Pro-gramme: In-te-grated Projects, RPF Pro-posal 
+Num-ber: IN-TE-GRATED/0609/0020,
+ []
+
+Missing character: There is no ≈ in font cmti10!
+Missing character: There is no Ç in font cmti10!
+
+Overfull \hbox (0.81169pt too wide) in paragraph at lines 1595--1596
+[]\OT1/cmr/bx/n/10 11/2015-05/2016 (PI): \OT1/cmr/m/it/10 De-vel-op-ment of In-
+dus-trial Re-search and In-no-va-tion Ac-tiv-i-ties (Pro-
+ []
+
+
+Overfull \hbox (0.61722pt too wide) in paragraph at lines 1601--1602
+[]\OT1/cmr/bx/n/10 01/2014-12/2014 (PI): \OT1/cmr/m/it/10 Smart-phone Data Man-
+age-ment (De-vel-op-ment Ser-vices Agree-ment)\OT1/cmr/m/n/10 ,
+ []
+
+[28]
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no ë in font cmr10!
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no ë in font cmr10!
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no ë in font cmr10!
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no £ in font cmr10!
+Missing character: There is no Œ in font cmr10!
+Missing character: There is no ó in font cmr10!
+
+Overfull \hbox (8.18169pt too wide) in paragraph at lines 1631--1633
+\OT1/cmr/m/n/10 CORDIS, Eu-ro-pean Com-mis-sion, M. D. Dika-iakos (UCY), Demetr
+ios Zeinalipour-Yazti (UCY),
+ []
+
+
+Overfull \hbox (10.18178pt too wide) in paragraph at lines 1640--1642
+\OT1/cmr/m/n/10 giou (UCY), Mar-ios D. Dika-iakos (UCY), Vivi Fragopoulou (ICS/
+FORTH), Evan-ge-los Markatos
+ []
+
+[29] [30]
+Overfull \hbox (1.54924pt too wide) in paragraph at lines 1667--1668
+[]\OT1/cmr/bx/n/10 Associate Ed-i-tor\OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 Big Dat
+a Re-search \OT1/cmr/m/n/10 jour-nal, \OT1/cmr/bx/n/10 El-se-vier Press\OT1/cmr
+/m/n/10 , Am-s-ter-dam, Nether-
+ []
+
+[31] [32]
+Overfull \hbox (16.20721pt too wide) in paragraph at lines 1713--1714
+[]\OT1/cmr/bx/n/10 TPC Mem-ber\OT1/cmr/m/n/10 , The 45th In-ter-na-tional Con-f
+er-ence on Very Large Data Bases \OT1/cmr/bx/n/10 (VLDB'19)\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (4.57724pt too wide) in paragraph at lines 1722--1723
+\OT1/cmr/m/n/10 Source Min-ing: Al-go-rithms, Sys-tems, Pro-gram-ming Mod-els a
+nd Ap-pli-ca-tions (\OT1/cmr/bx/n/10 BigMine-
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+[33] [34]
+Overfull \hbox (22.24216pt too wide) in paragraph at lines 1787--1789
+\OT1/cmr/m/n/10 the Web \OT1/cmr/bx/n/10 (Ex-ploreDB 2014)\OT1/cmr/m/n/10 , Ath
+ens, Greece, March 28, 2014, co-located with EDBT/ICDT
+ []
+
+
+Overfull \hbox (29.34735pt too wide) in paragraph at lines 1796--1798
+\OT1/cmr/m/n/10 tec-ture and Ap-pli-ca-tions (PU-CAA 2013) (https://sites.googl
+e.com/site/pucaaworkshop2013/),
+ []
+
+[35]
+Overfull \hbox (12.45721pt too wide) in paragraph at lines 1803--1804
+[]\OT1/cmr/bx/n/10 TPC Mem-ber\OT1/cmr/m/n/10 , The 39th In-ter-na-tional Con-f
+er-ence on Very Large Databases \OT1/cmr/bx/n/10 (VLDB'13)\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (2.95741pt too wide) in paragraph at lines 1814--1815
+[]\OT1/cmr/bx/n/10 TPC Mem-ber\OT1/cmr/m/n/10 , The 13th In-ter-na-tional Con-f
+er-ence on Mo-bile Data Man-age-ment \OT1/cmr/bx/n/10 (IEEE
+ []
+
+
+Overfull \hbox (2.95741pt too wide) in paragraph at lines 1829--1830
+[]\OT1/cmr/bx/n/10 TPC Mem-ber\OT1/cmr/m/n/10 , The 12th In-ter-na-tional Con-f
+er-ence on Mo-bile Data Man-age-ment \OT1/cmr/bx/n/10 (IEEE
+ []
+
+[36]
+Overfull \hbox (12.92975pt too wide) in paragraph at lines 1838--1839
+\OT1/cmr/m/n/10 edge Man-age-ment \OT1/cmr/bx/n/10 (ACM CIKM'10)\OT1/cmr/m/n/10
+ , Do-main Spe-cific Data Man-age-ment Track, Toronto,
+ []
+
+
+Overfull \hbox (4.4408pt too wide) in paragraph at lines 1860--1861
+[]\OT1/cmr/bx/n/10 TPC Mem-ber\OT1/cmr/m/n/10 , IEEE 8th In-ter-na-tional Con-f
+er-ence on Data Min-ing \OT1/cmr/bx/n/10 (IEEE ICDM'08)\OT1/cmr/m/n/10 ,
+ []
+
+[37] [38] [39]
+Overfull \hbox (27.94498pt too wide) in paragraph at lines 1959--1960
+\OT1/cmr/bx/n/10 MSCA-IF-2017) \OT1/cmr/m/n/10 call, Eu-ro-pean Com-mis-sion Re
+-search Ex-ec-u-tive Agency (REA), 09/10/2017
+ []
+
+[40] [41] [42]
+Overfull \hbox (1.90393pt too wide) in paragraph at lines 2046--2047
+\OT1/cmr/m/n/10 Lec-turer/Assistant Pro-fes-sor po-si-tion on ``Data Man-age-me
+nt'', Uni-ver-sity of Cyprus, 01/2019-
+ []
+
+
+Overfull \hbox (81.69522pt too wide) in paragraph at lines 2048--2049
+[]\OT1/cmr/bx/n/10 Steering Com-mit-tee\OT1/cmr/m/n/10 , 10th Na-tional Logi-pa
+ignion Con-test for Stu-dents, http://logipaignion.cs.ucy.ac.cy/2017,
+ []
+
+
+Overfull \hbox (6.31346pt too wide) in paragraph at lines 2061--2062
+[]\OT1/cmr/bx/n/10 Co-Chair\OT1/cmr/m/n/10 , Logi-paignion Or-ga-niz-ing Com-mi
+t-tee, http://www.logipaignion.cs.ucy.ac.cy/, 2010. 
+ []
+
+
+Overfull \hbox (3.27834pt too wide) in paragraph at lines 2065--2066
+[]\OT1/cmr/bx/n/10 Founder and Web-mas-ter \OT1/cmr/m/n/10 of the Mas-ter in In
+-for-ma-tion Sys-tems CMS (http://is.ouc.ac.cy/),
+ []
+
+[43]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 2090--2096
+[][] 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 2104--2110
+[][] 
+ []
+
+
+Overfull \hbox (39.14293pt too wide) in alignment at lines 2116--2118
+[] []
+ []
+
+
+Underfull \hbox (badness 6412) in paragraph at lines 2152--2152
+[]\OT1/cmr/bx/n/10 EPL646 - Ad-vanced Top-ics in Databases \OT1/cmr/m/n/10 (Win
+-ter 2012--
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 2152--2152
+\OT1/cmr/m/n/10 2017): Grad-u-ate (15 stu-dents/year), Elec-tive for All Di-rec
+-tions.
+ []
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 2152--2152
+[]\OT1/cmr/bx/n/10 EPL342 - Databases \OT1/cmr/m/n/10 (Win-ter 2009--2011): Un-
+der-grad-u-ate (85
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 2152--2152
+\OT1/cmr/m/n/10 stu-dents/year), Lower-Division Com-pul-sory for all CS stu-den
+ts.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2152--2152
+[]\OT1/cmr/bx/n/10 EPL232 - Pro-gram-ming Tech-niques and Tools
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2152--2152
+\OT1/cmr/bx/n/10 (Win-ter 2017, new course)\OT1/cmr/m/n/10 : Un-der-grad-u-ate 
+(85 stu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2152--2152
+\OT1/cmr/m/n/10 dents/year), Lower-Division Com-pul-sory for all CS stu-dents.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2152--2152
+[]\OT1/cmr/bx/n/10 EPL035 - Data Struc-tures and Al-go-rithms for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2152--2152
+\OT1/cmr/bx/n/10 ECE \OT1/cmr/m/n/10 (Spring 2011--2012): Un-der-grad-u-ate (~7
+0 stu-dents):
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2152--2152
+\OT1/cmr/m/n/10 Lower-Division Com-pul-sory for all Di-rec-tions in ECE.
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 2121--2154
+[][] 
+ []
+
+[44]
+Overfull \hbox (35.97363pt too wide) in alignment at lines 2158--2160
+[] []
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 2163--2175
+[][] 
+ []
+
+
+Overfull \hbox (28.86118pt too wide) in alignment at lines 2213--2216
+[] []
+ []
+
+
+Overfull \hbox (30.08772pt too wide) in alignment at lines 2222--2224
+[] []
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 2227--2232
+[][] 
+ []
+
+
+Overfull \hbox (33.72682pt too wide) in alignment at lines 2236--2238
+[] []
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 2268--2271
+[][] 
+ []
+
+[45]
+Overfull \hbox (13.46535pt too wide) in paragraph at lines 2307--2308
+\OT1/cmr/bx/n/10 ``Cre-ative Re-search and In-no-va-tion''\OT1/cmr/m/n/10 , thr
+ee joint in-ter-na-tional awards (IEEE MDM'12,
+ []
+
+[46]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [47]
+Overfull \hbox (10.40402pt too wide) in paragraph at lines 2370--2371
+[]\OT1/cmr/m/n/10 Pavlos Touloupos, BSc Stu-dent, ``Ex-ter-nal Sort-ing Al-go-r
+ithms for Flash Stor-age'', 05/2010.
+ []
+
+[48] [49]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [50] [51] [52] [53] (cv.aux) ) 
+Here is how much of TeX's memory you used:
+ 549 strings out of 493333
+ 4714 string characters out of 3139194
+ 63005 words of memory out of 3000000
+ 4148 multiletter control sequences out of 15000+200000
+ 7803 words of font info for 28 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 23i,10n,43p,954b,235s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
+9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmtt10.pfb>
+Output written on cv.pdf (53 pages, 327251 bytes).
+PDF statistics:
+ 217 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

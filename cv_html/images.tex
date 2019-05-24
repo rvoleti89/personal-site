@@ -1,0 +1,392 @@
+\batchmode
+
+
+\documentclass[mm]{simple_style}
+\RequirePackage{ifthen}
+
+  
+
+
+\usepackage{helvet}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{xcolor}
+\usepackage{textcomp}
+\hypersetup {
+    colorlinks=true,
+    linkcolor=colorlink,
+    filecolor=magenta,      
+    urlcolor=colorlink,
+}
+\usepackage[left=0.7in, right=2in, top=0.9in]{geometry}
+
+
+\textheight=700pt
+
+
+
+
+\usepackage[]{inputenc}
+
+
+
+\makeatletter
+
+\makeatletter
+\count@=\the\catcode`\_ \catcode`\_=8 
+\newenvironment{tex2html_wrap}{}{}%
+\catcode`\<=12\catcode`\_=\count@
+\newcommand{\providedcommand}[1]{\expandafter\providecommand\csname #1\endcsname}%
+\newcommand{\renewedcommand}[1]{\expandafter\providecommand\csname #1\endcsname{}%
+  \expandafter\renewcommand\csname #1\endcsname}%
+\newcommand{\newedenvironment}[1]{\newenvironment{#1}{}{}\renewenvironment{#1}}%
+\let\newedcommand\renewedcommand
+\let\renewedenvironment\newedenvironment
+\makeatother
+\let\mathon=$
+\let\mathoff=$
+\ifx\AtBeginDocument\undefined \newcommand{\AtBeginDocument}[1]{}\fi
+\newbox\sizebox
+\setlength{\hoffset}{0pt}\setlength{\voffset}{0pt}
+\addtolength{\textheight}{\footskip}\setlength{\footskip}{0pt}
+\addtolength{\textheight}{\topmargin}\setlength{\topmargin}{0pt}
+\addtolength{\textheight}{\headheight}\setlength{\headheight}{0pt}
+\addtolength{\textheight}{\headsep}\setlength{\headsep}{0pt}
+\setlength{\textwidth}{349pt}
+\newwrite\lthtmlwrite
+\makeatletter
+\let\realnormalsize=\normalsize
+\global\topskip=2sp
+\def\preveqno{}\let\real@float=\@float \let\realend@float=\end@float
+\def\@float{\let\@savefreelist\@freelist\real@float}
+\def\liih@math{\ifmmode$\else\bad@math\fi}
+\def\end@float{\realend@float\global\let\@freelist\@savefreelist}
+\let\real@dbflt=\@dbflt \let\end@dblfloat=\end@float
+\let\@largefloatcheck=\relax
+\let\if@boxedmulticols=\iftrue
+\def\@dbflt{\let\@savefreelist\@freelist\real@dbflt}
+\def\adjustnormalsize{\def\normalsize{\mathsurround=0pt \realnormalsize
+ \parindent=0pt\abovedisplayskip=0pt\belowdisplayskip=0pt}%
+ \def\phantompar{\csname par\endcsname}\normalsize}%
+\def\lthtmltypeout#1{{\let\protect\string \immediate\write\lthtmlwrite{#1}}}%
+\usepackage[tightpage,active]{preview}
+\newbox\lthtmlPageBox
+\newdimen\lthtmlCropMarkHeight
+\newdimen\lthtmlCropMarkDepth
+\long\def\lthtmlTightVBox#1#2{%
+    \setbox\lthtmlPageBox\vbox{\hbox{\catcode`\_=8 #2}}%
+    \lthtmlCropMarkHeight=\ht\lthtmlPageBox \advance \lthtmlCropMarkHeight 6pt
+    \lthtmlCropMarkDepth=\dp\lthtmlPageBox
+    \lthtmltypeout{^^J:#1:lthtmlCropMarkHeight:=\the\lthtmlCropMarkHeight}%
+    \lthtmltypeout{^^J:#1:lthtmlCropMarkDepth:=\the\lthtmlCropMarkDepth:1ex:=\the \dimexpr 1ex}%
+    \begin{preview}\copy\lthtmlPageBox\end{preview}}}%
+\long\def\lthtmlTightFBox#1#2{%
+    \adjustnormalsize\setbox\lthtmlPageBox=\vbox\bgroup %
+    \let\ifinner=\iffalse \let\)\liih@math %
+    {\catcode`\_=8 #2}%
+    \@next\next\@currlist{}{\def\next{\voidb@x}}%
+    \expandafter\box\next\egroup %
+    \lthtmlCropMarkHeight=\ht\lthtmlPageBox \advance \lthtmlCropMarkHeight 6pt
+    \lthtmlCropMarkDepth=\dp\lthtmlPageBox
+    \lthtmltypeout{^^J:#1:lthtmlCropMarkHeight:=\the\lthtmlCropMarkHeight}%
+    \lthtmltypeout{^^J:#1:lthtmlCropMarkDepth:=\the\lthtmlCropMarkDepth:1ex:=\the \dimexpr 1ex}%
+    \begin{preview}\copy\lthtmlPageBox\end{preview}}%
+    \long\def\lthtmlinlinemathA#1#2\lthtmlindisplaymathZ{\lthtmlTightVBox{#1}{#2}}
+    \def\lthtmlinlineA#1#2\lthtmlinlineZ{\lthtmlTightVBox{#1}{#2}}
+    \long\def\lthtmldisplayA#1#2\lthtmldisplayZ{\lthtmlTightVBox{#1}{#2}}
+    \long\def\lthtmlinlinemathA#1#2\lthtmlindisplaymathZ{\lthtmlTightVBox{#1}{#2}}
+    \def\lthtmlinlineA#1#2\lthtmlinlineZ{\lthtmlTightVBox{#1}{#2}}
+    \long\def\lthtmldisplayA#1#2\lthtmldisplayZ{\lthtmlTightVBox{#1}{#2}}
+    \long\def\lthtmldisplayB#1#2\lthtmldisplayZ{\\edef\preveqno{(\theequation)}%
+        \lthtmlTightVBox{#1}{\let\@eqnnum\relax#2}}
+    \long\def\lthtmlfigureA#1#2\lthtmlfigureZ{\let\@savefreelist\@freelist
+        \lthtmlTightFBox{#1}{#2}\global\let\@freelist\@savefreelist}
+    \long\def\lthtmlpictureA#1#2\lthtmlpictureZ{\let\@savefreelist\@freelist
+        \lthtmlTightVBox{#1}{#2}\global\let\@freelist\@savefreelist}
+\def\lthtmlcheckvsize{\ifdim\ht\sizebox<\vsize 
+  \ifdim\wd\sizebox<\hsize\expandafter\hfill\fi \expandafter\vfill
+  \else\expandafter\vss\fi}%
+\providecommand{\selectlanguage}[1]{}%
+\makeatletter \tracingstats = 1 
+\providecommand{\Epsilon}{\textrm{E}}
+\providecommand{\Beta}{\textrm{B}}
+\providecommand{\Zeta}{\textrm{Z}}
+\providecommand{\Kappa}{\textrm{K}}
+\providecommand{\Omicron}{\textrm{O}}
+\providecommand{\Eta}{\textrm{H}}
+\providecommand{\Tau}{\textrm{T}}
+\providecommand{\Iota}{\textrm{J}}
+\providecommand{\Mu}{\textrm{M}}
+\providecommand{\Alpha}{\textrm{A}}
+\providecommand{\Nu}{\textrm{N}}
+\providecommand{\Rho}{\textrm{R}}
+\providecommand{\Chi}{\textrm{X}}
+\providecommand{\omicron}{\textrm{o}}
+
+
+\begin{document}
+\pagestyle{empty}\thispagestyle{empty}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength hsize=\the\hsize}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength vsize=\the\vsize}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength hoffset=\the\hoffset}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength voffset=\the\voffset}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength topmargin=\the\topmargin}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength topskip=\the\topskip}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength headheight=\the\headheight}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength headsep=\the\headsep}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength parskip=\the\parskip}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength oddsidemargin=\the\oddsidemargin}\lthtmltypeout{}%
+\makeatletter
+\if@twoside\lthtmltypeout{latex2htmlLength evensidemargin=\the\evensidemargin}%
+\else\lthtmltypeout{latex2htmlLength evensidemargin=\the\oddsidemargin}\fi%
+\lthtmltypeout{}%
+\makeatother
+\setcounter{page}{1}
+\onecolumn
+
+% !!! IMAGES START HERE !!!
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline287}%
+$ \sim$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+\stepcounter{section}
+\stepcounter{section}
+\stepcounter{section}
+\stepcounter{section}
+{\newpage\clearpage
+\lthtmlfigureA{position54}%
+\begin{position}
+	- \emph{Jan `18 - Present}: conducting research under \supervisor{Dr. Visar Berisha} and \supervisor{Dr. Julie Liss} at the \emph{Brain \& Behavior Analytics Laboratory} at ASU, using signal processing, machine learning, and NLP techniques to study speech and language characteristics of neurodegenerative disease and mental illness.\\
+	- \emph{Aug `16 - Dec `17}: worked under \supervisor{Dr. Umit Ogras} at \emph{eLab} conducting research on human-machine interaction and cyber-physical systems
+\end{position}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlfigureA{position67}%
+\begin{position}
+	- Developed use cases and requirements for hardware and software projects involving the Alaris\textsuperscript{TM}  infusion systems on both domestic and international product lines\\
+	- Extensive experience with driving development to comply with IEC 60601-1 Standards for
+	Medical Electrical Equipment, as well as collateral and particular related standards\\
+	- Leading risk management discussions in compliance with ISO 14971:2012 standards \\
+	- Facilitating new development and sustaining activities from a systems-level approach by
+	working with multidisciplinary teams of engineers, marketing, and clinical specialists \\
+	- Requirements and specifications management in DOORS database
+\end{position}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlfigureA{position75}%
+\begin{position}
+	- Provided assistance to a hardware engineering research and development team in design
+	verification testing and documentation of a state-of-the art speech processor for a cochlear
+	implant system\\
+	- Developed testing procedures and demonstrated laboratory skillset using both electronic test
+	equipment and software that led to the eventual approval of the Neptune and Naida speech
+	processors for sale in the United States and worldwide.
+\end{position}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+\stepcounter{section}
+{\newpage\clearpage
+\lthtmlfigureA{project78}%
+\begin{project}
+	\title{Simulation of Word Substitution Errors in Automatic Speech Recognition}
+	\supervisor{Supervised by Dr. Visar Berisha \& Dr. Julie Liss at\\Brain \& Behavior Analytics Laboratory, ASU}
+	\duration{Aug '18 - Present}
+	\description{
+		- Developed a word substitution error simulator that generates ASR-plausible errors given perfectly transcribed text, using pre-trained \textit{GloVe} word embeddings and \textit{phonological edit distance} to determine substitution errors.\\
+		- Evaluated the performance of several state-of-the-art sentence embeddings and their effectiveness on downstream NLP tasks when errors were introduced (see ICASSP-2019 conference proceedings).
+	} 
+\end{project}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlfigureA{project85}%
+\begin{project}
+	\title{Language Analysis for Patients with Bipolar Disorder and Schizophrenia}
+	\supervisor{Supervised by Dr. Visar Berisha \& Dr. Julie Liss at\\Brain \& Behavior Analytics Laboratory, ASU\\In conjunction with Dr. Christopher Bowie, Queens University}
+	\duration{Jan `18 - Present}
+	\description{
+		- Computational analysis of textual transcripts of interviews with patients diagnosed with schizophrenia and bipolar disorder\\
+		- Developed quantifiable measures of semantic coherence, syntactic complexity, and explored correlation with clinical variables
+	}
+\end{project}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlfigureA{project91}%
+\begin{project}
+	\title{Motion Tracking for Gait Analysis with IMU}
+	\supervisor{Supervised by Dr. Umit Ogras at eLab, ASU}
+	\duration{Jun `17 - Dec `17}
+	\description{
+		- Developed methodology for real-time motion tracking for analysis of gait with an inexpensive inertial motion unit (IMU) sensor that incorporated accelerometer, gyroscope, and magnetometer data transmitted over Bluetooth Low-Energy (BLE) protocol
+	}
+\end{project}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlfigureA{project97}%
+\begin{project}
+	\title{EEG Signal Processing for Flow Experiments in Human-Machine Interaction}
+	\supervisor{Supervised by Dr. Umit Ogras at eLab, ASU}
+	\duration{Aug `16 - Jun `17}
+	\description{
+		- Processing of EEG signals using a portable EEG system (EMOTIV EPOC+) while users were interacting with a mobile device to analyze the user experience based on task difficulty
+	}
+\end{project}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlfigureA{project103}%
+\begin{project}
+	\title{Green Power Generation with Low Wind Speed and Piezoelectric Beam}
+	\duration{Apr `12 - Sep `13}
+	\supervisor{Supervised by Dr. A.V. Balakrishnan \\UCLA Flutter Systems Research Center}
+	\description{
+		- Graduate student research (during M.S.)
+		- Developed a prototype device for green power generation using low wind speeds by taking advantage of the flutter of an aluminum beam with a piezoelectric material.
+	}
+\end{project}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlfigureA{project109}%
+\begin{project}
+	\title{Lensless Ultra-wide field Cell-monitoring Array platform based on Shadow imaging (LUCAS)}
+	\supervisor{Supervised by Dr. Aydogan Ozcan\\UCLA Nano- and Bio-Photonics Laboratory}
+	\duration{Feb `09 - Sep `09}
+	\description{
+		- Undergraduate research assistant in the Ozcan group
+		- Devised an early prototype of LUCAS using a modified cell-phone camera as a cell-monitoring array platform for inexpensive medical diagnosis
+	}
+\end{project}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+\stepcounter{section}
+\stepcounter{section}
+\stepcounter{section}
+\stepcounter{section}
+\stepcounter{section}
+\stepcounter{section}
+{\newpage\clearpage
+\lthtmlfigureA{project140}%
+\begin{project}
+	\title{Teaching Assistant - Electrical Engineering 110L (Circuits Laboratory)}
+	\supervisor{UCLA Electrical Engineering Department}
+	\duration{Mar '13 - Jun '13}
+	\description{
+		- Led circuits laboratory course introducing students to electronic lab equipment and basic components and instrumentation
+	}
+\end{project}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlfigureA{project146}%
+\begin{project}
+	\title{Teaching Assistant - Math 33B (Differential Equations)}
+	\supervisor{UCLA Department of Mathematics}
+	\duration{Jan '13 - Mar '13}
+	\description{
+		- Led two weekly discussion sections with undergraduate students taking differential equations
+	}
+\end{project}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlfigureA{project152}%
+\begin{project}
+\title{Teaching Assistant - Math 3B (Calculus II)}
+\supervisor{UCLA Department of Mathematics}
+\duration{Sep '12 - Dec '13}
+\description{
+	- Led two weekly discussion sections with undergraduate students taking Calculus II for students studying biological sciences
+}
+\end{project}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlfigureA{project158}%
+\begin{project}
+	\title{Course Reader - Electrical Engineering 103 (Applied Numerical Computing)}
+	\duration{Sep `11 - Dec `11}
+	\supervisor{UCLA Electrical Engineering Department}
+	\description{
+		- Graded undergraduate homework assignments  and papers for students taking EE 103 - \textit{Applied Numerical Computing}, taught by Professor Lieven Vandenberghe
+	}
+\end{project}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+\stepcounter{section}
+{\newpage\clearpage
+\lthtmlfigureA{project166}%
+\begin{project}
+	\title{Natural Language Inference}
+	\supervisor{Course : CSE 576 - Natural Language Processing\\Prof. Chitta Baral (ASU)}
+	\duration{Aug '18 - Dec '18}
+	\description{
+		- Modification of well-known \href{https://arxiv.org/pdf/1606.01933v1.pdf}{DecAtt} model architecture to improve results in difficult sentence pairs for the NLI task
+	}
+\end{project}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlfigureA{project173}%
+\begin{project}
+	\title{ECoG Classification of Finger Movements}
+	\supervisor{Course: EE M255 - Neuroengineering\\Prof. Wentai Liu (UCLA)}
+	\duration{Jan `13 - Mar `13}
+	\description{
+		-  Neuroengineering: Used principal component analysis and independent component analysis to analyze recorded EcOG to classify finger movements for brain-computer interface design.
+	}
+\end{project}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlfigureA{project179}%
+\begin{project}
+	\title{MRI Image Reconstruction}
+	\supervisor{Course : EE 239AS - Principles of MRI \\Prof. Jin Hyung Lee (UCLA)}
+	\duration{Mar '12 - Jun '12}
+	\description{
+		- Used MATLAB to perform parallel image reconstruction from data collected from multiple coils. Explored fast imaging methods using non-Cartesian trajectories through frequency domain (k-space), using interpolation and gridding techniques to reconstruct data.
+	}
+\end{project}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlfigureA{project185}%
+\begin{project}
+	\title{Pitch Tracking for Noisy Speech}
+	\supervisor{Course : EE 214A - Digital Speech Processing \\Prof. Abeer Alwan (UCLA)}
+	\duration{Jan '12 - Mar '12}
+	\description{
+		-  Designed a pitch detection algorithm for tracking the fundamental frequency of various male and female speakers using the average magnitude difference function (AMDF), in both noisy and noiseless environments
+	}
+\end{project}%
+\lthtmlfigureZ
+\lthtmlcheckvsize\clearpage}
+
+\stepcounter{section}
+\stepcounter{section}
+
+\end{document}
