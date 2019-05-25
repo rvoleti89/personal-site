@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>[ Zeinalipour | All Publications ]</title>
+<title>[ Rohit Voleti | All Publications ]</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Font Awesome Icons -->
@@ -161,7 +161,7 @@
 
 <section id="tree" style="margin-top:50px">
     <div class="container">
-        <a href="../index.html">Zeinalipour</a> > All Publications
+        <a href="../index.html">Rohit Voleti</a> > All Publications
     </div>
 </section>
 
@@ -169,7 +169,7 @@
 <section id="home">
     <div class="container" id="publications">
     <br>
-    <h1 align="CENTER">All Publications of Demetris Zeinalipour</h1>
+    <h1 align="CENTER">All Publications of Rohit Voleti</h1>
     <br>
 <?php
     error_reporting(E_ALL);
